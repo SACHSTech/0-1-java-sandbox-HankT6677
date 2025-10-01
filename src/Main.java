@@ -20,6 +20,9 @@ public class Main extends ConsoleProgram {
         // Example program: prompt user and print greeting
         String name = readLine("Enter your name: ");
         println("Hello, " + name + "!");
+        
+        Boolean test = readBoolean("Diud you fail your test? (true.false)");
+        System.out.println("It is " + test + " that you failed the test.");
 
         // === END OF YOUR CODE ===
     }
